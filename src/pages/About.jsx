@@ -1,12 +1,12 @@
 import React from 'react';
 import { Center, Stack, Image, Text, Button } from '@chakra-ui/react';
-import Kryptons from '../components/images/Kryptons.jpeg';
+import About_photo from '../components/images/7-bedroom-design-tips-for-better-sleep-313465f878194889bed5be6cfb5625d6.jpeg';
 
 export const Aboutus = () => (
  <Center h="100vh" w="100vw" paddingTop="20%" paddingBottom="20%" marginTop="-15%">
     <Stack direction="row" justify="center" align="center" spacing="55px">
       <Image
-        src={Kryptons} 
+        src={About_photo } 
         alt="INSERT_ALT"
         width="50%"
         height="552px"
@@ -29,7 +29,7 @@ export const Aboutus = () => (
             <Text
               fontFamily="Raleway"
               fontWeight="semibold"
-              fontSize="24px"
+              fontSize="36px"
               color="#05559F"
               width="208px"
               height="39px"

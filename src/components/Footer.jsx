@@ -32,7 +32,7 @@ export const Footer = () => {
         <Text
           fontFamily="Raleway"
           fontWeight="regular"
-          fontSize={{ base: "14px", md: "16px" }}
+          fontSize={{ base: "14px", md: "24px" }}
           color="#FFFFFF"
         >
           Satisfaction is our duty

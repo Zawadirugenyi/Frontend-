@@ -3,18 +3,15 @@ import { Stack, Box, Text, Input, Button, Center } from '@chakra-ui/react';
 
 export const Signin = () => {
  useEffect(() => {
-    // Prevent scrolling
-   
 
-    // Cleanup on component unmount
     return () => {
       document.body.style.overflow = 'unset';
     };
- }, []); // Empty dependency array ensures this runs once on mount and cleanup on unmount
+ }, []); 
 
  return (
-    <Center height="100vh" width="100%">
-      <Stack width="1728px" height="1117px" maxWidth="100%" background="#FFFFFF">
+   <Center h="100vh" w="100vw" paddingTop="20%" paddingBottom="20%" marginTop="-15%">
+    <Stack direction="row" justify="center" align="center" spacing="55px">
          <Stack
         direction="row"
         justify="flex-start"
@@ -23,7 +20,8 @@ export const Signin = () => {
       >
         <Stack
           paddingX="90px"
-          paddingY="394px"
+          paddingY="294px"
+          marginLeft="56px"
           justify="flex-start"
           align="flex-start"
           spacing="10px"
@@ -32,7 +30,7 @@ export const Signin = () => {
         >
           <Stack justify="flex-start" align="center" spacing="55px">
             <Text
-              fontFamily="Inter"
+              fontFamily="Raleway"
               lineHeight="1.56"
               fontWeight="semibold"
               fontSize="18px"
@@ -41,7 +39,7 @@ export const Signin = () => {
               Student hostels
             </Text>
             <Text
-              fontFamily="Inter"
+              fontFamily="Raleway"
               lineHeight="1.56"
               fontWeight="semibold"
               fontSize="18px"
@@ -54,15 +52,15 @@ export const Signin = () => {
             </Text>
           </Stack>
         </Stack>
-        <Stack justify="center" align="center" spacing="47px">
+        <Stack justify="center" align="center" spacing="47px" marginLeft="-76px">
             <Text
               fontFamily="Raleway"
-              lineHeight="1.43"
+              lineHeight="1.56"
               fontWeight="semibold"
-              textAlign="center"
-              fontSize="18px"
+              fontSize="36px"
               color="#05559F"
-              width="175px"
+              width="469px"
+              maxWidth="100%"
             >
              Login to your Account
             </Text>
@@ -70,7 +68,7 @@ export const Signin = () => {
              fontFamily="Raleway"
               placeholder="Email"
               size="xs"
-              width="360px"
+              width="469px"
               height="60px"
               maxWidth="100%"
             />
@@ -78,7 +76,7 @@ export const Signin = () => {
              fontFamily="Raleway"
               placeholder="Password"
               size="xs"
-              width="360px"
+              width="469px"
               height="60px"
               maxWidth="100%"
             />
@@ -87,7 +85,7 @@ export const Signin = () => {
              fontFamily="Raleway"
               size="lg"
               colorScheme="blue"
-              width="360px"
+              width="469px"
               height="60px"
               maxWidth="100%"
             >
