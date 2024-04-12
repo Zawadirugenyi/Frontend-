@@ -6,7 +6,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Room from "./pages/Room";
 import Notification from "./pages/Notification";
-import R_changing from "./pages/R_changing";
+import RoomChanging from "./pages/RoomChanging";
 import Signup from "./pages/Signup";
 import Signin from "./pages/Signin";
 import Logout from "./pages/Logout";
@@ -23,7 +23,7 @@ export default function AppRouter() {
           <Route path="contact" element={<Contact />} />
           <Route path="room" element={<Room />} />
           <Route path="notification" element={<Notification/>} />
-          <Route path="r-changing" element={<R_changing/>}/>
+          <Route path="RoomChanging" element={<RoomChanging/>}/>
           <Route path="signup" element={<Signup/>}/>
           <Route path="signin" element={<Signin/>}/>
           <Route path="logout" element={<Logout/>}/>
