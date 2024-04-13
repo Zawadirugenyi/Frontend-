@@ -62,7 +62,7 @@ export const Checkout = () => (
               size="lg"
               colorScheme="White"
               fontFamily="Raleway"
-              color="#2B6CB0"
+              color="black"
               width="312px"
               height="48px"
               maxWidth="100%"
@@ -83,7 +83,7 @@ export const Checkout = () => (
             <Button
               size="lg"
               colorScheme="White"
-              color="black"
+             color="#2B6CB0"
               fontFamily="Raleway"
               width="312px"
               height="48px"
@@ -315,9 +315,8 @@ export const Checkout = () => (
                         textAlign="end"
                          marginRight="-21px"
                         marginLeft="-14px"
-                      
-                    
                       >
+
                        Ksh 300
                       </Text>
                     </Stack>
@@ -372,10 +371,11 @@ export const Checkout = () => (
               width="306px"
               height="38px"
               maxWidth="80%"
+              fontSize="14px"
               marginRight="39px"
               marginLeft="-46px"
             >
-              Checkout
+              Confirm Checkout
             </Button>
           </Stack>
         </Stack>
