@@ -1,6 +1,7 @@
 import React from 'react';
 import { Stack, Avatar, AvatarBadge, Text, Button, Box } from '@chakra-ui/react'
 
+
 export const Account = () => (
   <Stack direction="row" justify="flex-start" align="flex-start" spacing="60px" marginRight="-290px" marginLeft="90px"  marginBottom="-50px" marginTop="-120px"> 
     <Stack
