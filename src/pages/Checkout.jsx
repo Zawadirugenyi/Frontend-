@@ -11,8 +11,8 @@ import {
 } from '@chakra-ui/react'
 
 export const Checkout = () => (
-  <Box>
-    <Stack direction="row" justify="center" align="center" spacing="10px" marginLeft="-100px">
+  <Box marginTop="-190px" marginLeft="100px" marginBottom="100px">
+    <Stack direction="row" justify="center" align="center" spacing="10px" marginLeft="-60px" marginTop="90px">
     
     <Stack
       paddingX="14px"
@@ -28,15 +28,15 @@ export const Checkout = () => (
       borderTopWidth="1px"
       borderBottomWidth="1px"
       background="#FFFFFF"
-      marginBottom="90px"
-      marginTop="-170px"
+      marginBottom="120px"
+      marginTop="0px"
       marginRight="20px"
     >
-      <Stack justify="flex-start" align="center" spacing="12px"   marginRight="120px">
+      <Stack justify="flex-start" align="center" spacing="6px" marginRight="80px">
         <Avatar src=" " name="TA" size="xs">
           <AvatarBadge boxSize="1.25em" background="green.500" />
         </Avatar>
-        <Stack justify="flex-start" align="center" spacing="38px">
+        <Stack justify="flex-start" align="center" spacing="18px">
           <Text
             fontFamily="Raleway"
             lineHeight="1.56"
@@ -46,7 +46,7 @@ export const Checkout = () => (
           >
             User
           </Text>
-          <Stack justify="flex-start" align="flex-start" spacing="24px">
+          <Stack justify="flex-start" align="flex-start" spacing="14px">
             <Button
               size="lg"
               colorScheme="White"
@@ -120,8 +120,10 @@ export const Checkout = () => (
         borderTopWidth="1px"
         borderBottomWidth="1px"
         background="#FFFFFF"
+        marginRight="50px"
+        
       >
-        <Stack justify="flex-start" align="flex-start" spacing="14px">
+        <Stack justify="flex-start" align="flex-start" spacing="14px" marginRight="0px" marginBottom="60px">
           <Text
             fontFamily="Raleway"
             fontWeight="semibold"
@@ -135,23 +137,25 @@ export const Checkout = () => (
               src={About_photo } 
             alt="INSERT_ALT"
             width="100%"
-            height="542px"
+            height="442px"
             maxWidth="100%"
             objectFit="cover"
           />
         </Stack>
         <Stack
-          paddingY="25px"
-           paddingX="45px"
+          paddingY="45px"
+           paddingX="55px"
           justify="flex-start"
           align="flex-start"
           spacing="32px"
           overflow="hidden"
-          background="#E2E8F0"
+          background="#E2E8F0" 
+          marginRight="0px"
+          marginBottom="20px"
         >
-          <Stack justify="flex-start" align="flex-start" spacing="16px">
-            <Stack justify="flex-start" align="center" spacing="45px">
-              <Stack justify="flex-start" align="center" spacing="31px">
+          <Stack justify="flex-start" align="flex-start" spacing="6px" >
+            <Stack justify="flex-start" align="center" spacing="15px">
+              <Stack justify="flex-start" align="center" spacing="10px" >
                 <Text
                   fontFamily="Raleway"
                   fontWeight="semibold"
@@ -162,13 +166,13 @@ export const Checkout = () => (
                   Your stay in our Hostel
                 </Text>
                 <span className="unsupported" />
-                <Stack justify="flex-start" align="flex-start" spacing="14px">
-                  <Stack justify="flex-start" align="flex-start" spacing="14px">
+                <Stack justify="flex-start" align="flex-start" spacing="7px">
+                  <Stack justify="flex-start" align="flex-start" spacing="7px">
                     <Stack
                       direction="row"
                       justify="flex-start"
                       align="flex-start"
-                      spacing="110px"
+                      spacing="100px"
                     >
                       <Text
                         fontFamily="Raleway"
@@ -186,14 +190,14 @@ export const Checkout = () => (
                         color="#000000"
                         textAlign="end"
                       >
-                        2o22 Jan, 12th
+                        2022 Jan, 12th
                       </Text>
                     </Stack>
                     <Stack
                       direction="row"
                       justify="flex-start"
                       align="flex-start"
-                      spacing="96px"
+                      spacing="89px"
                     >
                       <Text
                         fontFamily="Raleway"
@@ -211,7 +215,7 @@ export const Checkout = () => (
                         color="#000000"
                         textAlign="end"
                       >
-                        2o24 May, 09th
+                        2024 May, 09th
                       </Text>
                     </Stack>
                   </Stack>
@@ -219,7 +223,7 @@ export const Checkout = () => (
                     direction="row"
                     justify="flex-start"
                     align="flex-start"
-                    spacing="66px"
+                    spacing="69px"
                   >
                     <Text
                       fontFamily="Raleway"
@@ -236,7 +240,7 @@ export const Checkout = () => (
                       fontSize="10px"
                       color="#000000"
                       textAlign="end"
-                       marginRight="-49px"
+                      marginRight="-49px"
                     >
                       320
                     </Text>
@@ -245,113 +249,131 @@ export const Checkout = () => (
               </Stack>
             </Stack>
           </Stack>
-          <Stack justify="flex-start" align="flex-start" spacing="16px" marginLeft="56px">
-            <Text
-              fontFamily="Raleway"
-              fontWeight="semibold"
-              fontSize="18px"
-              color="#000000"
-              textAlign="end"
-            >
-              Check Out Charges
-            </Text>
-          </Stack>
-          <Stack justify="flex-start" align="center" spacing="44px"  textAlign="center">
-            <Stack justify="flex-start" align="center" spacing="20px"  textAlign="center">
-              <Stack justify="flex-start" align="center" spacing="20px"  textAlign="center">
-                <Stack
-                  direction="row"
-                  justify="flex-start"
-                  align="flex-start"
-                  spacing="69px"
+          <Stack justify="flex-start" align="flex-start" spacing="6px">
+            <Stack justify="flex-start" align="center" spacing="15px">
+              <Stack justify="flex-start" align="center" spacing="10px">
+                <Text
+                  fontFamily="Raleway"
+                  fontWeight="semibold"
+                  fontSize="18px"
+                  color="#000000"
+                  textAlign="end"
                 >
-                  <Text
-                    fontFamily="Raleway"
-                    fontWeight="semibold"
-                    fontSize="12px"
-                    color="#000000"
-                    textAlign="end"
-                    marginRight="49px"
-                  >
                     Check Out Charges
-                  </Text>
-                  <Text
-                    fontFamily="Raleway"
-                    fontWeight="regular"
-                    fontSize="10px"
-                    color="#000000"
-                    textAlign="end"
-                    marginRight="44px"
+                </Text>
+                <span className="unsupported" />
+                <Stack justify="flex-start" align="flex-start" spacing="7px">
+                  <Stack justify="flex-start" align="flex-start" spacing="7px">
+                    <Stack
+                      direction="row"
+                      justify="flex-start"
+                      align="flex-start"
+                      spacing="100px"
+                    >
+                      <Text
+                        fontFamily="Raleway"
+                        fontWeight="semibold"
+                        fontSize="12px"
+                        color="#000000"
+                        textAlign="end"
+                      >
+                        Painting Fees
+                      </Text>
+                      <Text
+                        fontFamily="Raleway"
+                        fontWeight="regular"
+                        fontSize="10px"
+                        color="#000000"
+                        textAlign="end"
+                        marginRight="-21px"
+                        marginLeft="-21px"
+                      >
+                        Ksh 3,700
+                      </Text>
+                    </Stack>
+                    <Stack
+                      direction="row"
+                      justify="flex-start"
+                      align="flex-start"
+                      spacing="89px"
+                    >
+                      <Text
+                        fontFamily="Raleway"
+                        fontWeight="semibold"
+                        fontSize="12px"
+                        color="#000000"
+                        textAlign="end"
+                       
+                      >
+                        Cleaning Fees
+                      </Text>
+                      <Text
+                        fontFamily="Raleway"
+                        fontWeight="regular"
+                        fontSize="10px"
+                        color="#000000"
+                        textAlign="end"
+                         marginRight="-21px"
+                        marginLeft="-14px"
+                      
+                    
+                      >
+                       Ksh 300
+                      </Text>
+                    </Stack>
+                  </Stack>
+                  <Stack
+                    direction="row"
+                    justify="flex-start"
+                    align="flex-start"
+                    spacing="69px"
                   >
-                    Ksh, 3700
-                  </Text>
-                </Stack>
-                <Stack
-                  direction="row"
-                  justify="flex-start"
-                  align="flex-start"
-                  spacing="109px"
-                 marginRight="49px"
-                >
-                  <Text
-                    fontFamily="Raleway"
-                    fontWeight="semibold"
-                    fontSize="12px"
-                    color="#000000"
-                    textAlign="end"
-                     arginRight="49px"
-                  >
-                    Cleaning fees
-                  </Text>
-                  <Text
-                    fontFamily="Raleway"
-                    fontWeight="regular"
-                    fontSize="10px"
-                    color="#000000"
-                    textAlign="end"
-                     marginRight="44px"
-                  >
-                    Ksh, 300
-                  </Text>
+                    <Text
+                      fontFamily="Raleway"
+                      fontWeight="semibold"
+                      fontSize="12px"
+                      color="#000000"
+                      textAlign="end"
+                    >
+                     Total Charges
+                    </Text>
+                    <Text
+                      fontFamily="Raleway"
+                      fontWeight="semibold"
+                      fontSize="10px"
+                      color="#000000"
+                      textAlign="end"
+                      marginRight="-11px"
+                      marginLeft="2px"
+                      
+                     
+                    >
+                      Ksh 4,000
+                    </Text>
+                  </Stack>
                 </Stack>
               </Stack>
-              <Stack justify="flex-start" align="center" spacing="22px"  textAlign="center">
+            </Stack>
+          </Stack>
+         
+          <Stack justify="flex-start" align="center" spacing="4px"  textAlign="center">
+            <Stack justify="flex-start" align="center" spacing="0px"  textAlign="center">
+              <Stack justify="flex-start" align="center" spacing="0px"  textAlign="center">
+
+              </Stack>
+              <Stack justify="flex-start" align="center" spacing="0px"  textAlign="center">
                 <span className="unsupported" />
-                <Stack
-                  direction="row"
-                  justify="flex-start"
-                  align="flex-start"
-                  spacing="85px"
-                  justifyContent="center"
-                  textAlign="center"
-                >
-                  <Text
-                    fontFamily="Raleway"
-                    fontWeight="semibold"
-                    fontSize="18px"
-                    color="#000000"
-                    textAlign="end"
-                  >
-                    Total Charges
-                  </Text>
-                  <Text
-                    fontFamily="Raleway"
-                    fontWeight="regular"
-                    fontSize="16px"
-                    color="#000000"
-                    textAlign="end"
-                  >
-                    Ksh, 4,000
-                  </Text>
-                </Stack>
+                
               </Stack>
             </Stack>
             <Button
               size="lg"
               colorScheme="blue"
               width="306px"
-              height="48px"
-              maxWidth="100%"
+              height="38px"
+              maxWidth="80%"
+              marginRight="39px"
+              marginLeft="-46px"
             >
               Checkout
             </Button>
