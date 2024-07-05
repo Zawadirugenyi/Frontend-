@@ -12,6 +12,17 @@ import {
   AlertDescription,
 } from '@chakra-ui/react'
 
+    const notificationSocket = new WebSocket('ws://' + window.location.host + '/ws/notifications/');
+
+    notificationSocket.onmessage = function(e) {
+        const data = JSON.parse(e.data);
+        alert('New notification: ' + data.message);
+    };
+
+    notificationSocket.onclose = function(e) {
+        console.error('Notification socket closed unexpectedly');
+    };
+
 export const Notification = () => (
     <Stack direction="row" justify="center" align="center" spacing="15px" marginLeft="-300px">
     <Stack

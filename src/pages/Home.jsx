@@ -12,7 +12,6 @@ import Tsavo from '../components/images/maxresdefault.jpeg';
 import OC from '../components/images/481cdc4c-0ad4-4fed-aae4-4db2081e3974-592x444 (1).jpeg';
 
 
-
 const ApartmentCard = ({ src, location, title, description, beds, baths, cameras }) => (
   <Card variant="elevated" width="376px" height="496px" maxWidth="100%" m="20px">
     <CardHeader>
